@@ -22,7 +22,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 - I discovered that pinning down coordinates to get a bike station near a single location would be tricky as other locations would be captured within the radius depending on the size applied.  While I obtained approximately 250 bike stations in Vancouver, I was only able to generate 10 to 20 Foursquare and Yelp locations.
 
 ## Challenges 
-- Testing the data given we had limited calls with APIs depending on the organization.  As I had trouble figuring out locations that were no where close to their nearest bike station, HTML requests were repeated, which led to exceeding my maximum API limits as a user.  Fortunately, I had the original data saved in .csv, but the data was clearly flawed.  For example, a yogurt shop (Menchie's) located near the campus at the University of British Columbia was no where near a bike station located on West Broadway, which would be approximately 10 km apart, equivalent to a a 20 minute drive between the two locations.
+- Testing the data given we had limited calls with APIs depending on the organization.  As I had trouble figuring out locations that were no where close to their nearest bike station, HTML requests were repeated, which led to exceeding my maximum API limits as a user.  Fortunately, I had the original data saved in .csv, but the data was clearly flawed.  For example, a yogurt shop (Menchie's) located near the campus at the University of British Columbia was no where near a bike station located on West Broadway, which would be about 10 km apart, equivalent to a a 20 minute drive between the two locations.
 
 ## Future Goals
 (what would you do if you had more time?)

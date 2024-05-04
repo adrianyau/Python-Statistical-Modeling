@@ -16,7 +16,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 
 6. The dataframes between CitiBikes and Yelp were joined using the Pandas function 'pd.merge' having identified the 'ids' under citibikes to be the unique variable, which would capture locations near a specific bike station.  Data was visualized with graphs showing the number of bikes between bike stations; number of available bikes and empty slots near POIs; and comparision of Yelp ratings and reviews between POIs.  In addition, the data was created, inserted, and stored in the SQLite database.
 
-7. Lastly, a regression model was applied to demonstrate a relationship between the number of bikes and its variables with their POIs.
+7. Lastly, a regression model using the statsmodel function was applied to demonstrate a relationship between the number of bikes and its variables with their POIs.
 
 ## Results
 - I discovered that pinning down coordinates to get a bike station near a single location would be tricky as other locations would be captured within the radius depending on the size applied when I called the function to get location results  Any bike station would be at least 10 km away from the nearest restaurant, bar, or point of interest.  I had a conversation with a mentor, who suggested that I carry on with the project with my flawed original datasets having Foursquare and Yelp halt my requests due to excess limits.

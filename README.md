@@ -53,3 +53,4 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 - I would have liked to find other free APIs on the internet, such as Google Places, that could leverage Google's extensive resources to see if I could get better real-time location results and further information, such as traffic information and trip planning details.
 - I wished that I had more time to assess my Python code to see if the steps and logic worked out.
 - I could have implemented 'reponse status codes' to check if my HTML requests were successful or not, which would have prevented myself to further waste my API limits.
+- If I had more time post-bootcamp, I could try to apply my theories and re-test this project.

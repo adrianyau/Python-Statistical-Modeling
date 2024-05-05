@@ -40,7 +40,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
       - How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
       - Is it easy to unlock a bike and return back to its station?
       - What is a short commute?  Is it a trip to a coffee shop or ice-cream parlour?
-    - The prices that people would spend at locations.  Would there be a bike stations near restaurants with '$$$$ or '$$$$$' price rating?
+    - The prices that people would spend at locations.  Would there be a bike stations near restaurants with '$$$$' or '$$$$$' price rating?
   - Other variables that I think they would not affect the relationship between bikes and locations:
     - Reviews and ratings published on location services companies like Foursquare and Yelp.  Is there a relationship betweeen bikes and the number and quality of customer reviews?
 

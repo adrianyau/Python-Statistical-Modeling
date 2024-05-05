@@ -37,5 +37,5 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 ## Future Goals
 - I felt that I should have dedicated more time on the project as a whole instead of focusing the time and effort to further validate the data.  I would have liked to know what I have done incorrectly that allowed the search results of locations to be vastly out of range of the bike stations.  I did not want poor data to be used in the statistical modelling, which would have misinterpreted my results.
 - I would have liked to find other free APIs on the internet, such as Google Places, to see if I could get better location results.
-- I wished that I had more time to get my Python code to see if the steps and logic worked out.
+- I wished that I had more time to assess my Python code to see if the steps and logic worked out.
 - I could have implemented 'reponse status codes' to check if my HTML requests were successful or not, which would have prevented myself to further waste my API limits.

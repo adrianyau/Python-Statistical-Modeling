@@ -30,7 +30,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
     - Increase accessibility of under-represented communities with poor socioeconomic status.
   - Places where bike stations would be built:
     - Follow public bike routes implemented by municipal governments around the cities.
-    - Provide a public service for locals and visitors to travel around landmarks and tourist attractions (e.g., Stanley Park)
+    - Provide a public service for locals and visitors to travel around landmarks and tourist attractions (e.g., Stanley Park).
     - Allow access around underprivileged neighbourhoods, such as rental housing, for people who cannot afford a vehicle or a personal bike to travel.
   - Other variables that I think they would affect the relationship between bikes and locations:
     - The time of the day and weather conditions depend on availibility of bikes.

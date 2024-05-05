@@ -25,16 +25,19 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
   - the more empty slots, the less free bikes are at a bike station.
   - the less empty slots, the more free bikes are at a bike station.
 - Here are my thoughts to explore about the relationship between number of bikes and locations:
-  - Do we know about the comparisons between the mode of commutes to locations, whether by car, bike, or walk?
-  - The time of the day and weather conditions would affect usage of bikes.
-  - What are the business decisions to impliment bike stations?
-    - High Traffic Areas, including residential and commercial spaces.
-    - Follow public bike routes that are implemented by municipal governments around the cities.
-    - Be near public spaces, landmarks, and tourist attractions.  Is high usage seen as people riding bikes on a hot and sunny day where people ride along parks and waterfronts, and visit coffee shops and ice-cream parlours for cool refreshments?
-  - Who are the target customers?  Is it people with no personal vehicles or people who want to make eco-friendly choices?
-  - What is the demographic?  Would young people be likely to use Foursquare or Yelp as opposed to seniors?
-  - Are crowd-sourced reviews legitimate with respect to the experiences in quantity and quality?  Are people genuine in leaving honest feedback about a location or are people using the opportunity to derail a buiness by making bad comments due to poor food or service?
-  - Would businesses utilize surveys for the benefit of Bike Share companies?  For example, could Bike Share companies partner with restaurants to offer deals and promotions to customers in exchange for information about their commute and usage of bike stations?
+  - What is the mission statement of bike sharing companies?
+    - Reduce greenhouse gas emissions by reducing vehicles on the road, especially for short-travel commutes.
+    - Increase accessibility of under-represented communities with poor socioeconomic status.
+  - Places where bike stations would be built:
+    - Follow public bike routes implemented by municipal governments around the cities.
+    - Provide a public service for locals and visitors to travel around landmarks and tourist attractions (e.g., Stanley Park)
+    - Allow access around underprivileged neighbourhoods, such as rental housing, for people who cannot afford a vehicle or a personal bike to travel.
+  - Other variables that I think they would affect the relationship between bikes and locations:
+    - The time of the day and weather conditions.
+    - The distance to travel between bike station and the nearest location, such as a trip to a coffee shop or ice-cream parlour.
+    - The prices to spend at locations.  Would there be a bike stations near restaurants with '$$$$ or '$$$$$' price rating?
+  - Other variables that I think they would not affect the relationship between bikes and locations:
+    - Reviews and ratings published by location services companies.  How do we determine a relationship betweeen bikes and the number and quality of customer reviews?
 
 ## Challenges 
 - Testing the data given we had limited calls with APIs depending on the organization.  Through my experience with Vancouver and verifying addresses through Google searches, I had trouble figuring out locations that were no where close to their nearest bike station.  I took the first row of data each from Foursquare and Yelp respectively to compare the details.  For example with Foursquare, a yogurt shop (Menchie's) located near the University of British Columbia was no where near a bike station located on West Broadway in Vancouver, which would be about 10 km apart, roughly 20 minute drive between the two destinations.  Another example with Yelp, it mimicked a similar error I encounted with Foursquare, where a restaurant (noodle shop) near the University of British Columbia is also 10 km apart to the same bike station located on West Broadway in Vancouver.  There must be something wrong with my Python 'for loop' function passing coordinates to the APIs versus entering a single coordinate for different location search results.

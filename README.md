@@ -21,6 +21,9 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 ## Results
 - I discovered that pinning down coordinates to get a bike station near a single location would be tricky as other locations would be captured within the radius depending on the size applied when I called the function to get location results  Any bike station would be at least 10 km away from the nearest restaurant, bar, or point of interest.  I had a conversation with a mentor, who suggested that I carry on with the project with my flawed original datasets having Foursquare and Yelp halt my requests due to excess limits.
 - This is another project where bad data would process bad statistical results - Garbage-In-Garbage-Out.  From my stastical modeling, it was difficult to fit the linear regression model due to scattered data plots between variables.  I find it to be inconclusive to see whether the number of bikes have any influence from the characteristics of any point of interests as the results of the bike stations were not closeby to any of locations obtained.
+- The only relationship I could make between variables is that there is a negative correlation between empty stations and free bikes:
+  - the more empty slots, the less free bikes are at a bike station.
+  - the less empty slots, the more free bikes are at a bike station.
 - Here are my thoughts to explore about the relationship between number of bikes and locations:
   - Do we know about the comparisons between the mode of commutes to locations, whether by car, bike, or walk?
   - The time of the day and weather conditions would affect usage of bikes.

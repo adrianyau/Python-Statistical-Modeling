@@ -36,6 +36,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
     - The time of the day and weather conditions depend on availibility of bikes.
     - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of people.
     - Usage of bikes:
+      - Is it geared toward a younger demographic or older demographic?
       - How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
       - Is it easy to unlock a bike and return back to its station?
       - What is a short commute?  Is it a trip to a coffee shop or ice-cream parlour?

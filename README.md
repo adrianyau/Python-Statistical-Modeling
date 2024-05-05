@@ -10,7 +10,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 
 3. For CitiBikes, I used the 'for loop' function to collect the bike network IDs under Vancouver and store them in an empty list.  Thus, the Vancouver bike IDs were passed to the url (.../networks/network_id) to get the information on bike stations in Vancouver.  As a result, the 'latitudes', 'longitudes', and 'number of bikes' were collected and saved in a .csv file.
 
-4. For Foursquare, the coordinates from the CitiBikes.csv were imported as a dataframe in order to pass along the 'latitudes' and 'longitudes' using the Python's 'for loop' function to the url to obtain restaurants, bars, and POIs within the radius.  The JSON format was 'normalized' to a DataFrame, for which the table was tidied up,, such as renaming columns with the prefix 'fsq_' for clarity, and saved as a .csv file.
+4. For Foursquare, the coordinates from the CitiBikes.csv were imported as a dataframe in order to pass along the 'latitudes' and 'longitudes' using the Python's 'for loop' function to the url to obtain restaurants, bars, and POIs within the radius.  The JSON format was "normalized" to a DataFrame, for which the table was tidied up, such as renaming columns with the prefix "fsq_" for clarity, and saved as a .csv file.
 
 5. For Yelp, again, the same process was used as previously from Foursquare to obtain locations.  It was discovered that Yelp provides additional information as opposed to Foursquare, such as number of reviews and ratings.  I selected Yelp between comparisons because these variables would be useful to apply statistical modelling between variables.
 

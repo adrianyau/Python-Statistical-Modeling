@@ -34,7 +34,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
     - Allow access around underprivileged neighbourhoods, such as rental housing, for people who cannot afford a vehicle or a personal bike to travel.
   - Other variables that I think they would affect the relationship between bikes and locations:
     - The time of the day and weather conditions depend on availibility of bikes.
-    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft).
+    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of people.
     - The distance to travel between bike station and the nearest location, such as a trip to a coffee shop or ice-cream parlour.
     - The prices to spend at locations.  Would there be a bike stations near restaurants with '$$$$ or '$$$$$' price rating?
   - Other variables that I think they would not affect the relationship between bikes and locations:

@@ -34,10 +34,11 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
     - Allow access around underprivileged neighbourhoods, such as rental housing, for people who cannot afford a vehicle or a personal bike to travel.
   - Other variables that I think they would affect the relationship between bikes and locations:
     - The time of the day and weather conditions depend on availibility of bikes.
+    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft).
     - The distance to travel between bike station and the nearest location, such as a trip to a coffee shop or ice-cream parlour.
     - The prices to spend at locations.  Would there be a bike stations near restaurants with '$$$$ or '$$$$$' price rating?
   - Other variables that I think they would not affect the relationship between bikes and locations:
-    - Reviews and ratings published by location services companies.  How do we determine a relationship betweeen bikes and the number and quality of customer reviews?
+    - Reviews and ratings published on location services companies.  Is there a relationship betweeen bikes and the number and quality of customer reviews?
 
 ## Challenges 
 - Testing the data given we had limited calls with APIs depending on the organization.  Through my experience with Vancouver and verifying addresses through Google searches, I had trouble figuring out locations that were no where close to their nearest bike station.  I took the first row of data each from Foursquare and Yelp respectively to compare the details.  For example with Foursquare, a yogurt shop (Menchie's) located near the University of British Columbia was no where near a bike station located on West Broadway in Vancouver, which would be about 10 km apart, roughly 20 minute drive between the two destinations.  Another example with Yelp, it mimicked a similar error I encounted with Foursquare, where a restaurant (noodle shop) near the University of British Columbia is also 10 km apart to the same bike station located on West Broadway in Vancouver.  There must be something wrong with my Python 'for loop' function passing coordinates to the APIs versus entering a single coordinate for different location search results.

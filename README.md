@@ -25,11 +25,11 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
   - the more empty slots, the less free bikes are at a bike station.
   - the less empty slots, the more free bikes are at a bike station.
 - Here are my thoughts to explore about the relationship between number of bikes and locations:
-  - What is the mission statement of bike sharing companies?
+  - What is the mission statement of bike sharing companies?  Reference: https://www.mobibikes.ca/en/our-company for The City of Vancouver.
     - Reduce greenhouse gas emissions by reducing vehicles on the road, especially for short-travel commutes.
-    - Increase accessibility of under-represented communities with poor socioeconomic status.
+    - Increase accessibility of under-represented communities with lower socioeconomic status.
   - Places where bike stations would be built:
-    - Follow public bike routes implemented by municipal governments around the cities.
+    - Follow public bike routes implemented by municipal governments around the city.
     - Provide a public service for locals and visitors to travel around landmarks and tourist attractions (e.g., Stanley Park).
     - Allow access around underprivileged neighbourhoods, such as rental housing, for people who cannot afford a vehicle or a personal bike to travel.
   - Other variables that I think they would affect the relationship between bikes and locations:

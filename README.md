@@ -20,7 +20,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 
 ## Results
 - I discovered that pinning down coordinates to get a bike station near a single location would be tricky as other locations would be captured within the radius depending on the size applied when I called the function to get location results.  Any bike station would be at least 10 km away from the nearest restaurant, bar, or point of interest.  I had a conversation with a mentor, who suggested that I carry on with the project with my flawed original datasets having Foursquare and Yelp halt my requests due to excess limits.
-- This is another project where bad data would yield bad statistical results - Garbage-In-Garbage-Out.  From my statistical modeling, it was difficult to fit the linear regression model due to scattered data plots between comparision of variables.  I find it to be inconclusive to see whether the number of bikes had any influence from the characteristics of any point of interests as the results of the bike stations were not closeby to any of locations obtained.
+- This is another project where bad data would yield bad statistical results - Garbage-In-Garbage-Out.  From my statistical modeling, it was difficult to fit the linear regression model due to scattered data plots between comparision of variables.  I find it to be inconclusive to see whether the number of bikes had any influence from the characteristics of any POIs.
 - The only relationship I could make is that there is a negative correlation between empty slots and free bikes, meaning:
   - the more empty slots, the less free bikes are at a bike station.
   - the less empty slots, the more free bikes are at a bike station.
@@ -37,12 +37,15 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
     - Landmarks, scenic routes, and tourist attractions (e.g., Stanley Park) for locals and visitors.
     - Underprivileged neighbourhoods for people who cannot afford a vehicle or a personal bike to travel.
   - Other variables that may affect the relationship between bikes and locations:
-    - The time of day and weather conditions depend on the availabilty of bikes.
-    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of passengers.  What is the popularity of e-scooters?
-    - Users and riderships:
-      - Is it geared toward a younger demographic (e.g., restaurants,bars, and nightclubs) or older demographic (e.g., museams, libraries)?
-      - How do people feel towards bike stations?  How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
+    - The time of day (e.g., weekday versus weekend) and weather conditions (e.g., sunny versus rain or snow) depend on the availabilty of bikes.
+    - The size of bike stations.  How to distribute inventory of bikes depending on the area of urban density?
+    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of passengers.  What is the popularity of e-scooters and are they a direct competitor?
+    - People and riderships:
+      - Is it geared toward a younger demographic (e.g., restaurants, bars, nightclubs, and universities) or older demographic (e.g., arts, culture, and family events)?
+      - What is the user experience from the bike stations?  Are the bikes light or heavy?  Is it easy to unlock and secure upon docking afterwards?  Is payment straightforward?  Is the smartphone app easy to use?
+      - How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
       - How to put a measurement on a short commute?  Is it a trip to a coffee shop or ice-cream parlour within 1 or 2 km?
+      - How long do people spend on one trip on a bike and how much do they pay?  What are the rates and plans (e.g., bike pass)?
     - How much will people spend going out?  Are there bike stations near restaurants with '$$$$' or '$$$$$' price rating?
   - Other variables that may not affect the relationship between bikes and locations:
     - Reviews and ratings that are published on location services companies, like Foursquare and Yelp.  Is there a correlation between availability of bikes and the number of reviews and quality of customer feedback?

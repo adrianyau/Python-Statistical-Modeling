@@ -27,23 +27,24 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 - Question of the Project: How do the characteristics of POIs around a location might affect the number of bikes at that location?
   - Null hypothesis (H0): there is no statistical significance between the POI characteristics of locations and number of bikes.
   - As per my findings, we fail to reject the null hypothesis due to insufficient data, small sample size, and high variability.
-- Here are my thoughts to explore about the relationship between number of bikes and locations:
+- Here are my thoughts to explore about the relationship between number of bikes and characteristics of POIs:
   - What is the mission statement of bike sharing companies?  Reference: https://www.mobibikes.ca/en/our-company for The City of Vancouver.
     - Lower greenhouse gas emissions by reducing vehicles on the road, especially for short-travel commutes.
     - Increase accessibility of under-represented communities with lower socioeconomic status.
   - Places where bike stations can be built:
-    - Follow public bike routes that are implemented by municipal governments around the city.
-    - Provide a public service for locals and visitors to travel around landmarks and tourist attractions (e.g., Stanley Park).
-    - Allow access around underprivileged neighbourhoods for people with low income who cannot afford a vehicle or a personal bike to travel.
-  - Other variables that I think they may affect the relationship between bikes and locations:
-    - The time of the day and weather conditions depend on the availabilty of bikes.
-    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of passengers.
-    - Usage of bikes:
-      - Is it geared toward a younger demographic or older demographic?
+    - High-traffic areas or the city's "hot-spots" (e.g., downtown, city centres, shopping malls, and sports arenas)
+    - Public bike routes that are implemented by municipal governments around the city.
+    - Landmarks, scenic routes, and tourist attractions (e.g., Stanley Park) for locals and visitors.
+    - Underprivileged neighbourhoods for people who cannot afford a vehicle or a personal bike to travel.
+  - Other variables that may affect the relationship between bikes and locations:
+    - The time of day and weather conditions depend on the availabilty of bikes.
+    - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of passengers.  What is the popularity of e-scooters?
+    - Users and riderships:
+      - Is it geared toward a younger demographic (e.g., restaurants,bars, and nightclubs) or older demographic (e.g., museams, libraries)?
       - How do people feel towards bike stations?  How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
       - How to put a measurement on a short commute?  Is it a trip to a coffee shop or ice-cream parlour within 1 or 2 km?
-    - How much will people spend goig out?  Are there bike stations near restaurants with '$$$$' or '$$$$$' price rating?
-  - Other variables that I think they may not affect the relationship between bikes and locations:
+    - How much will people spend going out?  Are there bike stations near restaurants with '$$$$' or '$$$$$' price rating?
+  - Other variables that may not affect the relationship between bikes and locations:
     - Reviews and ratings that are published on location services companies, like Foursquare and Yelp.  Is there a correlation between availability of bikes and the number of reviews and quality of customer feedback?
 
 ## Challenges 

@@ -1,7 +1,7 @@
 # Final-Project-Statistical-Modeling-with-Python
 
 ## Project/Goals
-The project was to showcase our fundamentals and knowledge of Python functions, including NumPys and Pandas, as well as applications of Exploratory Data Analysis and Statistical Modeling. The goal was to use APIs to scrape data from CitiBikes, Foursquare, and, Yelp and establish relationships, if any, between the number of bikes and various locations (points of interests) with the city of our choosing.  The data was collected, wrangled, cleaned, and combined for presenting whether any characteristics of POIs have influence on a nearby bike station.
+The project was to showcase our fundamentals and knowledge of Python functions, including NumPys and Pandas, as well as applications of Exploratory Data Analysis and Statistical Modeling. The goal was to use APIs to scrape data from CitiBikes, Foursquare, and, Yelp and establish relationships, if any, between the number of bikes and various points of interests (POIs) with the city of our choosing.  The data was collected, wrangled, cleaned, and combined for presenting whether any characteristics of POIs have influence on a nearby bike station.
 
 ## Process
 1. For my choice of city, I selected Vancouver, British Columbia, being born and raised in the city.  Plus, the familiarity of the Greater Metro Vancouver Area could be useful to identify places based on names, addresses, and landmarks.
@@ -19,7 +19,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
 7. Lastly, a regression model using the statsmodel function was applied to demonstrate a relationship between the number of bikes and its variables with their POIs.
 
 ## Results
-- I discovered that pinning down coordinates to get a bike station near a single location would be tricky as other locations would be captured within the radius depending on the size applied when I called the function to get location results.  Any bike station would be at least 10 km away from the nearest restaurant, bar, or point of interest.  I had a conversation with a mentor, who suggested that I carry on with the project with my flawed original datasets having Foursquare and Yelp halt my requests due to excess limits.
+- I discovered that pinning down coordinates to get a bike station near a single location would be tricky as other locations would be captured within the radius depending on the size applied when I called the function to get location results.  Any bike station would be at least 10 km away from the nearest restaurant, bar, or POIs.  I had a conversation with a mentor, who suggested that I carry on with the project with my flawed original datasets having Foursquare and Yelp halt my requests due to excess limits.
 - This is another project where bad data would yield bad statistical results - Garbage-In-Garbage-Out.  From my statistical modeling, it was difficult to fit the linear regression model due to scattered data plots between comparision of variables.  I find it to be inconclusive to see whether the number of bikes had any influence from the characteristics of any POIs.
 - The only relationship I could make is that there is a negative correlation between empty slots and free bikes, meaning:
   - the more empty slots, the less free bikes are at a bike station.

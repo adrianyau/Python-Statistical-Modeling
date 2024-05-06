@@ -31,20 +31,20 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
   - What is the mission statement of bike sharing companies?  Reference: https://www.mobibikes.ca/en/our-company for The City of Vancouver.
     - Lower greenhouse gas emissions by reducing vehicles on the road, especially for short-travel commutes.
     - Increase accessibility of under-represented communities with lower socioeconomic status.
-  - Places where bike stations could be built:
-    - Follow public bike routes implemented by municipal governments around the city.
+  - Places where bike stations can be built:
+    - Follow public bike routes that are implemented by municipal governments around the city.
     - Provide a public service for locals and visitors to travel around landmarks and tourist attractions (e.g., Stanley Park).
-    - Allow access around underprivileged neighbourhoods, such as rental housing, for people who cannot afford a vehicle or a personal bike to travel.
-  - Other variables that I think they would affect the relationship between bikes and locations:
-    - The time of the day and weather conditions depend on availabilty of bikes.
+    - Allow access around underprivileged neighbourhoods for people with low income who cannot afford a vehicle or a personal bike to travel.
+  - Other variables that I think they may affect the relationship between bikes and locations:
+    - The time of the day and weather conditions depend on the availabilty of bikes.
     - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of passengers.
     - Usage of bikes:
       - Is it geared toward a younger demographic or older demographic?
-      - How do people feel towards bike stations?  How would we measure human emotions and sentiments?  Is it easy to unlock a bike and return back to its station?  How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
-      - What is a short commute?  Is it a trip to a coffee shop or ice-cream parlour?
-    - The prices that people would spend at locations.  Would there be a bike stations near restaurants with '$$$$' or '$$$$$' price rating?
-  - Other variables that I think they would not affect the relationship between bikes and locations:
-    - Reviews and ratings published on location services companies like Foursquare and Yelp.  Is there a correlation between bikes and the number and quality of customer reviews?
+      - How do people feel towards bike stations?  How comfortable are people using these bikes and navigating around traffic and intersections while sharing space with pedestrians and vehicles?
+      - How to put a measurement on a short commute?  Is it a trip to a coffee shop or ice-cream parlour within 1 or 2 km?
+    - How much will people spend goig out?  Are there bike stations near restaurants with '$$$$' or '$$$$$' price rating?
+  - Other variables that I think they may not affect the relationship between bikes and locations:
+    - Reviews and ratings that are published on location services companies, like Foursquare and Yelp.  Is there a correlation between bikes and the number of reviews and quality of customer feedback?
 
 ## Challenges 
 - Testing the data given we had limited calls with APIs depending on the organization.  Through my experience with Vancouver and verifying addresses through Google searches, I had trouble figuring out locations that were far apart from their nearest bike station.  I took the first row of data each from Foursquare and Yelp respectively to compare the details.  For example, with Foursquare, a yogurt shop (Menchie's) located near the University of British Columbia was nowhere near a bike station located on West Broadway in Vancouver, which would be about 10 km apart, roughly 20 minute drive between the two destinations.  Another example with Yelp, it mimicked a similar error I encountered with Foursquare, where a restaurant (noodle shop) near the University of British Columbia is also 10 km apart to the same bike station located on West Broadway in Vancouver.  There must be something wrong with my Python 'for loop' function passing coordinates to the APIs versus entering a single coordinate for different location search results.

@@ -37,7 +37,7 @@ The project was to showcase our fundamentals and knowledge of Python functions, 
     - Landmarks, scenic routes, and tourist attractions (e.g., Stanley Park) for locals and visitors.
     - Underprivileged neighbourhoods for people who cannot afford a vehicle or a personal bike to travel.
   - Other variables that may affect the relationship between bikes and locations:
-    - The time of day (e.g., weekday versus weekend) and weather conditions (e.g., sunny versus rain or snow) depend on the availabilty of bikes.
+    - The time of day (e.g., weekday vs. weekend) and weather conditions (e.g., sunny vs. rain or snow) depend on the availabilty of bikes.
     - The size of bike stations.  How to distribute inventory of bikes depending on the area of urban density?
     - Other forms of commute, such as subways (e.g., Skytrain) and ride-share programs (e.g., Uber and Lyft) that carry greater capacity of passengers.  What is the popularity of e-scooters and are they a direct competitor?
     - People and riderships:
